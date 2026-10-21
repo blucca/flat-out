@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An orange outruns its shadow. Then it has to catch up. A wordless 16-second Blender comedy by Codex for Blucca.">
+<meta name="theme-color" content="#a0bbd4">
+<title>FLAT OUT. — A very short chase</title>
+<style>
+  :root { color-scheme: light; --ink:#202631; --blue:#a0bbd4; --orange:#f65e37; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--blue); color:var(--ink); font:18px/1.5 "Trebuchet MS",Arial,sans-serif; }
+  main { max-width:1120px; margin:auto; padding:40px 36px 28px; }
+  header { display:flex; align-items:center; gap:44px; padding-bottom:30px; }
+  h1 { flex-shrink:0; margin:0; font:900 clamp(64px,9.5vw,112px)/.95 "Arial Black",Arial,sans-serif; letter-spacing:-.085em; text-shadow:6px 6px 0 var(--orange); }
+  header p { max-width:24ch; margin:0 0 0 auto; font-size:clamp(18px,2vw,23px); line-height:1.35; }
+  video { display:block; width:100%; aspect-ratio:16/9; background:#f4edd9; box-shadow:8px 8px 0 var(--ink); }
+  .note { margin:20px 0 28px; font-size:15px; }
+  a { color:inherit; text-underline-offset:4px; text-decoration-thickness:1px; }
+  a:hover { text-decoration-thickness:3px; }
+  :focus-visible { outline:3px solid var(--ink); outline-offset:5px; }
+  details { max-width:72ch; margin:22px 0; }
+  summary { cursor:pointer; width:fit-content; font-weight:bold; }
+  details p { font-size:16px; }
+  details img { display:block; width:100%; height:auto; margin:16px 0; }
+  footer { margin-top:36px; font-size:14px; max-width:76ch; }
+  footer p { margin:10px 0; }
+  @media(max-width:650px) { main { padding:30px 20px 24px; } header { display:block; padding-bottom:24px; } header p { margin:20px 0 0; max-width:32ch; } h1 { font-size:clamp(62px,16vw,96px); text-shadow:4px 4px 0 var(--orange); } video { box-shadow:5px 5px 0 var(--ink); } }
+</style>
+<main>
+  <header>
+    <h1>FLAT OUT.</h1>
+    <p>An orange outruns its shadow. Then it has to catch up.</p>
+  </header>
+  <video controls playsinline preload="metadata" poster="stills/opening.png" aria-label="FLAT OUT, a wordless animated short">
+    <source src="film.mp4" type="video/mp4">
+    <p><a href="film.mp4">Download the 16-second film</a>.</p>
+  </video>
+  <p class="note">First cut, 16 seconds. Sound on for the original Foley. <a href="film.mp4" download>Download</a></p>
+  <details>
+    <summary>Inside Blender</summary>
+    <p>One camera, one character, one wall. Python animates every hop, glance and stretch. A single mathematical shadow travels across the floor and up the wall.</p>
+    <p>The work-in-progress view below shows the solid-mode scene and its animation keys.</p>
+    <img src="stills/blender-wip.png" alt="The actual Blender project at frame 165, showing the orange character, camera view, animated objects and timeline." width="1440" height="960" loading="lazy">
+    <p><a href="https://github.com/blucca/flat-out">Source code and rendering instructions</a></p>
+  </details>
+  <details>
+    <summary>Visual description (spoilers)</summary>
+    <p>An orange ball takes a little hop. Its shadow follows. The ball accelerates and leaves the shadow behind, then stops and looks back. The shadow catches up and overtakes it. They race towards a blue wall. The shadow climbs it. The orange hits the wall and squashes flat. Now they are both two-dimensional.</p>
+  </details>
+  <footer>
+    <p>Original concept, code, animation and sound by Codex, an AI agent working for Blucca. Made in Blender, with locally synthesized sound.</p>
+    <p>© 2026 Blucca. <a href="https://github.com/blucca/flat-out/blob/main/LICENSE">Code: MIT</a>. Film and stills: all rights reserved.</p>
+  </footer>
+</main>
+</html>

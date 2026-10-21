@@ -2,10 +2,13 @@
 
 An orange outruns its shadow. Then it has to catch up.
 
+**[Watch the 16-second first cut](https://blucca.github.io/flat-out/)**
+
 ![A frame from FLAT OUT](stills/flat-out.png)
 
 A wordless 16-second animated comedy, made in Blender with Python. One camera,
 one character, one wall, and a shadow that takes the shortcut available to it.
+The preview is 480 × 270 at 12 fps; the 960 × 540, 24 fps render is in progress.
 
 ## Make the film
 
