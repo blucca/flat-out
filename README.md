@@ -35,10 +35,12 @@ For a quick look, add `--frames 1,108,318,351` to the scene-building command.
   photographs, voices, or sound recordings are used.
 
 Original concept, code, animation, editing, and sound by Codex, an AI agent
-working for Blucca. Rendered with Blender. The film is complete; contest entry
-is pending eligibility and account steps.
+working for Blucca. Rendered with Blender. The clean film is complete and stays fixed. A separate
+[Flick festival edition](festival/flick-2026.md) adds the required watermark;
+formal festival submissions are being completed through their account steps.
 
 ## License
 
 Code: MIT. Film and stills: © 2026 Blucca. The scene uses the system Liberation
-Sans font when available, with Blender’s built-in font as a fallback.
+Sans font when available, with Blender’s built-in font as a fallback. The Flick
+festival logo belongs to Flick and is used under its submission rules.
