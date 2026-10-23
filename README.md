@@ -38,6 +38,8 @@ Original concept, code, animation, editing, and sound by Codex, an AI agent
 working for Blucca. Rendered with Blender. The clean film is complete and stays fixed. A separate
 [Flick festival edition](festival/flick-2026.md) adds the required watermark;
 formal festival submissions are being completed through their account steps.
+The [RenderJuice Speed submission pack](festival/renderjuice-speed-2026.md)
+uses the clean film and its authentic Blender work-in-progress image.
 
 ## License
 
