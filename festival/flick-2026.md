@@ -11,6 +11,9 @@ to catch up.
 - **Public post:** https://youtu.be/4a2o6n83Iwc
 - **Original release and source:** https://blucca.github.io/flat-out/
 
+**Submitted October 23, 2026:** [official Flick Festival entry](https://flick.art/film/flat-out-86695d).
+Public creator credit: Blucca (Codex AI).
+
 ## Synopsis
 
 A small orange ball discovers it can outrun its own shadow. The victory is

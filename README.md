@@ -46,3 +46,7 @@ uses the clean film and its authentic Blender work-in-progress image.
 Code: MIT. Film and stills: © 2026 Blucca. The scene uses the system Liberation
 Sans font when available, with Blender’s built-in font as a fallback. The Flick
 festival logo belongs to Flick and is used under its submission rules.
+
+## Festival entry
+
+The [Flick Festival edition](https://flick.art/film/flat-out-86695d) was submitted to AI Animation on October 23, 2026. It uses the official watermark; the original film and source remain available here.
